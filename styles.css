@@ -65,9 +65,23 @@ footer li {
     list-style-type: none;
 }
 
-img {
+.main-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid antiquewhite;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid antiquewhite;
+}
+
+.events-list {
+    padding: 1rem;
+    line-height: 1.5;
 }
