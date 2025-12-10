@@ -7,6 +7,8 @@ main {
     padding: 1rem;
     background-color: darkgreen;
     color: antiquewhite;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -18,6 +20,7 @@ h1 {
     text-align: center;
     font-size: 250%;
     padding: .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
@@ -25,14 +28,22 @@ p {
     padding: 1rem;
 }
 
+h2 {
+    text-align: center;
+    font-style: italic;
+    padding: 1rem;
+}
+
 footer {
     clear: both;
     text-align: center;
     background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
     background-color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a {
@@ -40,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    color:darkblue;
+    color:darkgreen;
 }
 
 nav ul {
@@ -65,17 +76,10 @@ footer li {
     list-style-type: none;
 }
 
-.main-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid antiquewhite;
-}
-
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 600px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid antiquewhite;
@@ -84,4 +88,6 @@ img {
 .events-list {
     padding: 1rem;
     line-height: 1.5;
+    text-align: center;
+    list-style-type: none;
 }
